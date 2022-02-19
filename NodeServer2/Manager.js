@@ -3,7 +3,6 @@ var Timer = require("./Timer")
 
 class Manager {
     constructor() {
-        console.log("INITED");
         this.NUMBER_OF_SWITCH = 5;
         this.NUMBER_OF_SENSOR = 5;
         this.last = 0;

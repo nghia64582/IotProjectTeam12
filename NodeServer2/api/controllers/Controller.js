@@ -11,7 +11,6 @@ GET_SENSOR_DATA = 5;
 
 module.exports = {
     get: (req, res) => {
-        console.log("GET RECEIVED.");
         let data = req.body;
         let st = "";
         let resJson = [];
