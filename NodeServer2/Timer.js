@@ -1,6 +1,7 @@
 // export default class Timer {
 module.exports = class Timer{
-    constructor(deviceID, val, time) {
+    constructor(houseID, deviceID, val, time) {
+        this.houseID = houseID;
         this.deviceID = deviceID;
         this.val = val;
         this.time = time;
@@ -20,6 +21,10 @@ module.exports = class Timer{
 
     getDeviceID() {
         return this.deviceID;
+    }
+
+    getHouseID() {
+        return this.houseID;
     }
 
     getVal() {
