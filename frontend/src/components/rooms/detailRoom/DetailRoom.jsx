@@ -435,46 +435,7 @@ function DetailRoom(props) {
                     </div>
                   </Col>
                 </Row>
-                <Row>
-                  <Col
-                    span={24}
-                    style={{ display: "flex", justifyContent: "center" }}
-                  >
-                    <div className="title-detail">Permisstion</div>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col span={24}>
-                    <div
-                      style={{
-                        marginLeft: 18,
-                        marginTop: 20,
-                        display: "flex",
-                        alignItems: "center",
-                      }}
-                    >
-                      <FaUserSecret size="20" />
-                      &nbsp;Leader: Dũng
-                    </div>
-                  </Col>
-                  {/* <Col span={12}><div style={{marginLeft:18, marginTop: 20, display: 'flex', alignItems:'center'}}><TiDeviceDesktop size="20" />&nbsp;Rule : Control</div></Col>  */}
-                </Row>
-                <Row>
-                  <Col span={24}>
-                    <div
-                      style={{
-                        marginLeft: 18,
-                        marginTop: 20,
-                        display: "flex",
-                        alignItems: "center",
-                      }}
-                    >
-                      <FaUserNinja size="20" />
-                      &nbsp;Members: Dũng, Đạt, Hiếu
-                    </div>
-                  </Col>
-                  {/* <Col span={12}><div style={{marginLeft:18, marginTop: 20, display: 'flex', alignItems:'center'}}><TiDeviceDesktop size="20" />&nbsp;Rule : Watch</div></Col>  */}
-                </Row>
+                
               </div>
             </Col>
           </Row>

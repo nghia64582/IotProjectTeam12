@@ -11,9 +11,7 @@ function Routes(props) {
   return (
     <Suspense fallback={<Loading />}>
       <Switch>
-        <Route component={Login} path="/login" />
-        <Route component={Register} path="/register" />
-        <PrivateRoute component={MainAppRoutes} path="*" />
+        <Route component={MainAppRoutes} path="*" />
       </Switch>
     </Suspense>
   );
